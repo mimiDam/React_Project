@@ -1,0 +1,77 @@
+.container3 {
+  max-width: 80%;
+  margin: 0px auto;
+}
+.usersBox {
+  padding: 50px 0;
+}
+.info img {
+  border: 2px solid grey;
+  border-radius: 100%;
+  display: block;
+  margin: 0px auto;
+  margin-top: -150px;
+  position: relative;
+  background-color: white;
+}
+.info {
+  border: 2px solid grey;
+  margin-top: 150px;
+  background-color: white;
+  padding-bottom: 30px;
+}
+.info h1 {
+  text-align: center;
+}
+.infoUser {
+  display: inline-block;
+  margin: 15px 20px;
+  text-align: start;
+}
+.infoUser h3 {
+  font-size: 14px;
+  color: grey;
+}
+.infoUser span {
+  font-size: 20px;
+  display: block;
+  color: black;
+  font-weight: 600;
+}
+.holder {
+  display: flex;
+  justify-content: space-around;
+}
+.userPost {
+  margin-top: 100px;
+}
+.userPost h1 {
+  margin-left: 150px;
+  color: white;
+}
+.newPost {
+  margin: 60px auto;
+  background-color: white;
+  border: 2px solid grey;
+  width: 70%;
+  padding: 30px 30px 0px;
+}
+.newPost h3 {
+  font-size: 24px;
+}
+.newPost p {
+  border-bottom: 2px solid grey;
+  padding-bottom: 35px;
+}
+.add {
+  display: flex;
+  justify-content: space-around;
+}
+.like svg {
+  display: inline-block;
+}
+.like h6 {
+  display: inline-block;
+  font-size: 14px;
+  color: grey;
+}

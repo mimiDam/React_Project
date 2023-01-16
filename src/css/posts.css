@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@600&family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap");
+.color {
+  border: solid 2px rgb(113, 168, 183);
+  background-color: rgb(172, 196, 203);
+  box-shadow: 0px 20px 20px 10px rgb(140, 164, 170);
+  border-radius: 20px;
+}
+.posts {
+  margin: 50px 0;
+  font-size: 24px;
+  color: rgb(88, 87, 87);
+  font-family: "Caveat", cursive;
+}
+.container-post {
+  max-width: 60%;
+  margin: 70px auto;
+  text-align: center;
+}
+.posts p {
+  margin: 10px 0;
+}
+.inposts {
+  width: 50%;
+  margin: 80px auto;
+  padding: 40px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.inposts p {
+  display: inline;
+  padding: 0 10px;
+}

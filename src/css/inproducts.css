@@ -1,0 +1,96 @@
+.product-box {
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 15%;
+}
+.product-button a {
+  margin: 0 auto;
+  width: 70%;
+}
+.triangle-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.triangle-buttons__triangle {
+  border-style: solid;
+  height: 0px;
+  width: 0px;
+}
+.triangle-buttons__triangle--r {
+  border-color: transparent transparent transparent #d1d5db;
+  margin: 0 auto;
+  border-width: 2rem 0 2rem 2rem;
+}
+.triangle-buttons__triangle--l {
+  border-color: transparent #d1d5db transparent transparent;
+  margin: 0 auto;
+  border-width: 2rem 2rem 2rem 0;
+}
+.product-body {
+  background-color: rgb(209, 225, 227);
+  display: flex;
+}
+.imgWrap {
+  width: 45%;
+  margin: 30px;
+}
+.imgWrap img {
+  width: 100%;
+}
+.thumbnail {
+  display: flex;
+}
+.prodBox {
+  width: 48%;
+}
+
+.prodBox h3 {
+  font-size: 34px;
+  text-align: center;
+}
+.prodBox b {
+  font-size: 18px;
+}
+.prodBox h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.quantity {
+  margin-top: 20px;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+}
+.quantity button {
+  width: 30px;
+  height: 30px;
+}
+.quantity p {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 5px;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.chart button {
+  width: 60%;
+  height: 40px;
+  background-color: rgb(102, 100, 100);
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.bodyP {
+  /* background-image: linear-gradient(rgb(6, 85, 118), white); */
+  margin-top: -50px;
+}
+.titleP {
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  padding: 50px 0;
+  height: 500px;
+
+  font-size: 48px;
+  color: rgb(6, 85, 118);
+  font-weight: 600;
+}
+.containerP {
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: -350px auto;
+  background-color: rgb(6, 85, 118);
+  border-radius: 20px;
+}
+
+.productBox {
+  display: inline-block;
+  width: 27%;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: white;
+  margin: 50px 10px;
+}
+.productImg {
+  display: flex;
+  justify-content: center;
+}
+.productImg img {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.singleProductImg {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  margin: 10px;
+}
+.wrap {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.productInfo h4 {
+  font-size: 20px;
+  color: grey;
+  font-weight: 500;
+  text-align: center;
+}
+.productInfo h2 {
+  font-size: 28px;
+  color: rgb(90, 90, 90);
+  font-weight: 900;
+  text-align: center;
+}
+.productInfo span {
+  font-size: 20px;
+  color: grey;
+  font-weight: 500;
+}
+.details button {
+  margin: 30px auto;
+  display: block;
+  justify-content: center;
+  background-color: rgb(30, 116, 145);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.details button:hover {
+  background-color: rgb(13, 97, 125);
+}
